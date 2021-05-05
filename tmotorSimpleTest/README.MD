@@ -12,7 +12,7 @@ catkin_make
 source devel/setup.bash  
 
 ## 使能串口
-sudo ip link set can0 type can bitrate 1000000
+sudo ip link set can0 type can bitrate 1000000  
 sudo ip link set up can0  
 ## 运行demo(给电机发送一个正弦位置信号，对电机进行位置环控制)
 roscore  
